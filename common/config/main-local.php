@@ -4,9 +4,9 @@ $config= [
     'components' => [
         'db' => [
             'class' => 'yii\db\Connection',
-            'dsn' => 'mysql:host=192.168.10.10;dbname=blog',
+            'dsn' => 'mysql:host=localhost;dbname=yiiblog',
             'username' => 'root',
-            'password' => '123456',
+            'password' => '',
             'charset' => 'utf8',
             'tablePrefix'=>'moblog_',
         ],
@@ -25,13 +25,13 @@ if (YII_ENV_DEV) {
     $config['bootstrap'][] = 'debug';
     $config['modules']['debug'] = [
         'class'=>'yii\debug\Module',
-        'allowedIPs'=>['192.168.*'],
+        'allowedIPs'=>['*'],
     ];
 
     $config['bootstrap'][] = 'gii';
     $config['modules']['gii'] = [
         'class'=>'yii\gii\Module',
-        'allowedIPs'=>['192.168.*'],
+        'allowedIPs'=>['*'],
     ];
 }
 
