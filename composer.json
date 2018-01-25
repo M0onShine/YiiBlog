@@ -19,6 +19,7 @@
         "npm-asset/markdown":"*",
         "fxp/composer-asset-plugin": "*",
         "moxiecode/plupload":"*",
+        "tmukherjee13/yii2-reverse-migration": "*",
         "mootensai/yii2-enhanced-gii": "dev-master",
         "kartik-v/yii2-mpdf": "dev-master",
         "kartik-v/yii2-tree-manager": "dev-master"

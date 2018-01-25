@@ -75,7 +75,7 @@ AppAsset::register($this);
     <aside class="col-md-4 sidebar">
 
         <?=$this->render('/site/sidebar') ?>
-        </aside>
+    </aside>
 
     </div>
     </div>
@@ -106,8 +106,6 @@ AppAsset::register($this);
                     <div class="widget">
                         <h4 class="title">合作伙伴</h4>
                         <div class="content tag-cloud friend-links">
-                            <a href="https://coding.net" target="_blank">Coding</a>
-                            <a href="https://github.com" target="_blank">Github</a>
 
                         </div>
                     </div></div>
@@ -119,8 +117,7 @@ AppAsset::register($this);
         <div class="container">
             <div class="row">
                 <div class="col-sm-12">
-                    <span>Copyright &copy; <?=Yii::$app->name;?> <?= date('Y') ?></span> |
-                    <span><?=Yii::powered()?></span>
+
                 </div>
             </div>
         </div>
